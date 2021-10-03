@@ -1,17 +1,9 @@
-var http = require('http');
-var fs = require('fs');
+var path = require('path');
+var express = require('express');
+var app = express();
 
-function onRequest(request, response) {
-    response.writeHead(200, {'Content-Type': 'text/html'});
-    fs.readFile('./index.html', null, function(error, data) {
-        if (error) {
-            response.writeHead(404);
-            response.write('File not found!');
-        } else {
-            response.write(data);
-        }
-        response.end();
-    });
-}
+var dir = path.join(__dirname, 'public');
 
-http.createServer(onRequest).listen(8000);
+app.use(express.static(dir));
+
+app.listen(3000, () => console.log('Listening on http://localhost:3000/'));
