@@ -1,13 +1,405 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>NASA Space Apps!</title>
-</head>
-<body>
-  <h1>Hello, world!</h1>
-</body>
+  <head>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title></title>
+  </head>
+  <body>
+
+
+
+    <header class="container-fluid  bg-success d-flex justify-content-center">
+       <p class="text-light mb-0 p-2 fs-4">Gobierno de México</p> 
+     </header>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <span class="text-primary fs-5 fw-bold">Inicio</span>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mapa General
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="index.html">Bienvenida</a></li>
+                      <li><a class="dropdown-item" href="index.html">Layers</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="index.html">Guía de uso</a></li>
+                    </ul>
+                  </li>
+    
+
+
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Descargables</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Ciudadanos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Recomendaciones</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Proyección a futuro
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="index.html">Escenarios</a></li>
+                  <li><a class="dropdown-item" href="index.html">Equipamiento nuevo</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="index.html">Descargables</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Contacto</a>
+              </li>
+            
+            
+
+
+            </ul>
+
+
+              <form class="d-flex">
+                <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
+                <button class="btn btn-primary  btn-primary-outline-success" type="submit">Suscribete</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active"  data-bs-interval="3000">
+              <img src="../images/lluvioso.jpg" style="height: 70vh;  object-fit: cover;" class="w-100" alt="slide1">
+            </div>
+  
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="../images/imagen2.jpg" style="height: 70vh;  object-fit: cover;" class="w-100" alt="slide2">
+            </div>
+  
+  
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="../images/imagen3.jpg" style="height: 70vh;  object-fit: cover;" class="w-100" alt="slide3">
+            </div>
+  
+  
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      <section class="w-50 mx-auto text-center pt-5" id="intro">  
+      <h1 class="p-3 fs-5 border-top border-3"> domingo, 03 de Octubre de 2021
+      <span class="text-primary">
+          </span></h1>
+      <p class="p-3 fs-4"><span class="text-primary">Con el apoyo SpaceAPP, </span>muchas zonas con escacez de
+      agua se ven beneficiadas con esta iniciativa.</p>
+      </section> 
+
+      <section class="w-50 mx-auto text-center pt-5" id="intro">  
+        <h1 class="p-3 fs-5 border-top border-3"> Temas de interés
+        </h1>
+        </section> 
+
+ 
+
+     <section class="container-fluid">
+         <div class="row w-75 mx-auto my-5 servicio-fila">
+
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+            <img src="../images/zona-rural.jpg"  alt="desarrollo" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 fs-6">
+                    domingo, 03 de octubre de 2021
+                </h3>
+                <p class="px-4 fs-3"> "Conoce las zonas urbanas de la CDMX"</p>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary me-md-2" type="button">Leer más</button>
+                    
+                  </div>
+
+            </div>
+             </div>
+
+
+
+             <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+                <img src="../images/zona-urbana2.jpg"  alt="desarrollo" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 fs-6">
+                        domingo, 03 de octubre de 2021
+                    </h3>
+                    <p class="px-4 fs-3">"Conoce las zonas urbanas de la CDMX"</p>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary me-md-2" type="button">Leer más</button>
+                        
+                      </div>
+
+                </div>
+                 </div>
+
+
+
+                 <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+                    <img src="../images/zona-rural1.jpg"  alt="desarrollo" width="180" height="160">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4 pb-1 fs-6">
+                            domingo, 03 de octubre de 2021
+                        </h3>
+                        <p class="px-4 fs-3"> "Conoce las zonas urbanas de la CDMX"</p>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-primary me-md-2" type="button">Leer más</button>
+                            
+                          </div>
+
+
+                    </div>
+                     </div>
+        
+
+        
+                     <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+                        <img src="../images/zona-rural2.jpg"  alt="desarrollo" width="180" height="160">
+                        <div>
+                            <h3 class="fs-5 mt-4 px-4 pb-1 fs-6">
+                                domingo, 03 de octubre de 2021
+                            </h3>
+                            <p class="px-4 fs-3">"Conoce las zonas urbanas de la CDMX"</p>
+
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary me-md-2" type="button">Leer más</button>
+                                
+                              </div>
+
+
+                        </div>
+                         </div>
+
+         </div>
+     </section>
+
+
+
+
+     <section class="w-50 mx-auto text-center pt-5" id="intro">  
+        <h1 class="p-3 fs-5 border-top border-3"> Infografías y descargables
+        </h1>
+        </section> 
+
+     
+
+
+
+
+        <section class="container-fluid">
+            <div class="row w-75 mx-auto my-5 servicio-fila ">
+   
+   
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../images/imagen1.jpg" class="card-img-top" alt="infografia">
+                        <div class="card-body">
+                          <h5 class="card-title">Infografía primera parte</h5>
+                          <p class="card-text">El agua como recurso fundamental para vivir.</p>
+                          <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../images/mexico.jpg" class="card-img-top" alt="infografia">
+                        <div class="card-body">
+                          <h5 class="card-title">Infografía segunda parte</h5>
+                          <p class="card-text">El agua como recurso fundamental para vivir.</p>
+                          <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../images/agua.jpg" class="card-img-top" alt="infografia">
+                        <div class="card-body">
+                          <h5 class="card-title">Infografía tercera parte</h5>
+                          <p class="card-text">El agua como recurso fundamental para vivir.</p>
+                          <a href="#" class="btn btn-primary">Leer más</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                
+                  </div>
+
+
+
+
+
+                  <section class="w-50 mx-auto pt-5" id="intro">  
+                    
+                   
+                    
+
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center ">
+                      <li class="page-item">
+                        <a class="page-link" href="index.html" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                      <li class="page-item"><a class="page-link" href="index.html">2</a></li>
+                      <li class="page-item"><a class="page-link" href="index.html">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="index.html" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+
+                </section> 
+   
+           
+                        
+   
+            </div>
+        </section>
+   
+
+
+
+     
+           
+
+
+      <section id="seccion-contacto" class="border-bottom border-secondary border-1">
+          <div id="bg-contacto">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2C7744" fill-opacity="1" d="M0,128L1440,0L1440,320L0,320Z"></path></svg>
+
+          </div>
+
+          <div class="container" id="contenedor-formulario"></div>
+          
+
+
+
+          <section class="w-50 mx-auto text-center pt-0" id="intro">  
+            
+
+            <div class="titulo-formulario" class="text-center mb-4">
+
+               <div><img src="../images/contacto.jpg" alt="Contacto" class=" img-fluid" width="450" height="180"></div>
+              <h2>Contacto</h2>
+              <p class="fs-5">Dudas e información</p>
+            </div>
+
+            <form action="">
+
+                <div class="mb-3">
+                    
+                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                  </div>
+
+                  <div class="mb-3">
+                    
+                    <input type="text" class="form-control" id="nombre" placeholder="Adrián Sánchez" required>
+                  </div>
+
+                  <div class="mb-3">
+                    
+                    <input type="tel" class="form-control" id="tel" placeholder="000-000" required>
+                  </div>
+
+
+                  <div class="mb-3">
+                    
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje"  rows="3"></textarea>
+                  </div>
+
+                  <div class="mb-3">
+                      <button type="button" class="btn btn-primary w-100 h-25 fs-5">Enviar mensaje</button>
+                  </div>
+
+            </form>
+        </div>
+
+
+    </section> 
+      </section>
+
+    
+
+    
+      <footer class="w-100 h-25 d-flex align-items justify-content-center flex-wrap">
+          <p class="fs-5 px-3 pt-3">SpaceAPP &copy; Todos los Derechos Reservados
+              <div id="iconos">
+              <a href="index.html"><i class="bi bi-facebook"></i></a>
+              <a href="index.html"><i class="bi bi-twitter"></i></a>
+              <a href="index.html"><i class="bi bi-instagram"></i></a>
+              </div>
+          </p>
+      </footer>
+
+
+
+     
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
