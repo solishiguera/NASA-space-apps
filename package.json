@@ -1,0 +1,19 @@
+{
+  "name": "nasa-space-apps",
+  "version": "1.0.0",
+  "description": "NASA Space Apps challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solishiguera/NASA-space-apps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solishiguera/NASA-space-apps/issues"
+  },
+  "homepage": "https://github.com/solishiguera/NASA-space-apps#readme"
+}
