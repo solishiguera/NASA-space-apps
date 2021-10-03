@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/solishiguera/NASA-space-apps/issues"
   },
-  "homepage": "https://github.com/solishiguera/NASA-space-apps#readme"
+  "homepage": "https://github.com/solishiguera/NASA-space-apps#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

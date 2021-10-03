@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
+body{
+    background-color: #46484c;
+    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
+}
+.header{
+    margin: 10px 20px 0px 20px;
+    font-size: 0px;
+    line-height: 45px;
+}
+
+.fix-header{
+    position: fixed;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+li{
+    display: inline;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    font-family: sans-serif;
+    line-height: 10px;
+    
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-light .nav-item .nav-link {
+  color: #6e50b3;
+  margin-right: 20px;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #6e50b3;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-brand > img{
+    max-width: 25%;
+    margin-left: 30px;
+}
+.navbar-brand1 >img{
+    margin: auto;
+    max-width: 25%;
+}
+main {
+  margin-top: 184px;
+  text-align: center;
+}
+
+h1 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+.header {
+  padding-bottom: 184px;
+}
+
+.header p {
+  color: #46484c;
+  max-width: 680px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+.carousel{
+    margin: 0px 50px 0px 50px;
+    margin-top: 50px
+}
+
+.carousel > *{
+    border-radius: 10px;
+}
+.features{
+    display:grid;
+    margin-top: 70px;
+    background-color:black;
+    grid-template: repeat(2,330px)/repeat(2,1fr);
+    padding: 2% 7%;
+}
+
+.feature-art{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 280px;
+    padding: 30px 20px 30px 40px;
+}
+.feature-image img{
+    max-height: 280px;
+    max-width: 250px;
+    position: relative;
+}
+
+.feature-content img{
+    max-width: 50px;
+    max-height: 50px;
+    align-items: flex-start;
+}
+
+.feature-content h3{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.feature-content p{
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    color: gray;
+    padding-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.feature-content a{
+    padding-bottom: 20px;
+    color: #025157;
+
+}
+
+.Matcha-wok {
+    background-color: #fffbf7;
+    padding: 5% 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Matcha-wok h1{
+    color: #025157;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+}
+
+.Matcha-wok p{
+    max-width: 60%;
+    color: #46484c;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.Matcha-wok a{
+    color: #086369;
+}
+
+.Matcha-wok button{
+    margin: 0 auto;
+    background-color:rgb(18, 104, 75);
+    color: white;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0;
+    border-radius: 10%;
+}
+.Matcha-blog{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,650px);
+    padding: 30px 100px 100px 30px;
+    margin: 0px 100px 0px 100px;
+}
+.col-sm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 0px 20px 0px 20px;
+    overflow: hidden;
+    border-radius: 2%;
+    border-color: #46484c;
+}
+
+.col-sm img{
+    height: 350px;
+    width: 200px;
+}
+
+.content-blog{
+    align-content: center;
+    padding: 0px 20px 0px 20px;
+}
+.content-blog h2{
+    color: #025157;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+    font-style: oblique;
+}
+.content-blog p{
+    font-size: 16px;
+}
+.content-blog a{
+    color: #1a8d5d;
+    font-size: 16px;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    /* .navbar, .actions{
+        display: none;
+    } */
+
+    .encabezado {
+        text-align: center;
+        margin-top: 10px;
+        font-family: 'Franklin Gothic Medium';
+    }
+    .encabezado img{
+        width: 80%
+    }
+
+    .formulario-b{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario input{
+        margin-top: 10px;
+        width: 60%;
+    }
+    .formulario button{
+        margin-top: 10px;
+        background-color: #025157;
+        color: #fff;
+        border-radius: 5%;
+    }
+
+    .promo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .videomuestra{
+        max-width: 100%;
+    }
+
+    .articulo h2{
+        font-size: 20px;
+    }
+    .articulo p{
+        font-size: 16px;
+    }
+    .articulo button{
+        margin-top: 10px;
+    }
+
+    .features{
+        grid-template: repeat(4,1fr)/ 1fr;
+        margin: 10px 10px 10px 10px;
+        padding-top: 20px;
+    }
+    .feature-image{
+        display: none;
+    }
+
+    .carousel-inner{
+        max-height: 100%;
+        height: 450px;
+    }
+}
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {}
