@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
 body{
-    background-color: #46484c;
     box-sizing: border-box;
     margin: 10;
     padding: 10;
@@ -13,7 +12,6 @@ body{
 
 .fix-header{
     position: fixed;
-    background-color: black;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -40,7 +38,7 @@ li{
 }
 
 body {
-  background-color: black;
+  background-color: rgba(179, 179, 179, 0.089);
   font-family: "Open Sans", sans-serif;
 }
 

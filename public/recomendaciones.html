@@ -1,123 +1,137 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/recomendaciones.css">
     <title>Aqua Services</title>
-  </head>
+</head>
 
-  <body>
-  
+<body>
+
     <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="../logos/2.png" alt="SpaceApps" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <background-image>
-                background="Heydar_Aliyev_Center.2e16d0ba.fill-591x300.jpg">            
-            </background-image>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./reporte.html">Reporte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./recomendaciones.html">Recomendaciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Acerca de</a>
+                </li>
+                <a class="navbar-brand1" href="#">
+                    <img src="../logos/2.png" alt="SpaceApps" />
+                </a>
+            </ul>
+        </div>
 
-            <div class="container px-5">
-                <a class="navbar-brand" href="#!">SpaceApps</a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
-
-                        <li class="nav-item"><a class="nav-link" href="#Service">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#report">Make a report</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    </nav>
 
 
-        <!-- Header-->
-        <header class="bg-dark py-5">
-            <div class="container px-5">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="text-center my-5">
-                            <h1 class="display-5 fw-bolder text-white mb-2">INNOVANDO PARA CREAR CIUDADES INCLUSIVAS</h1>
-                            <p class="lead text-white-50 mb-4">
-                                A partir de los flujos de datos, incluidos la teledetección espacial y los datos de detección de sistemas aéreos no tripulados (UAS), permitir que las partes interesadas locales (planificadores urbanos, autoridades de la ciudad) desarrollen planes urbanos más sostenibles
-                            </p>
-                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Services</a>
-                                <a class="btn btn-outline-light btn-lg px-4" href="#report">Make a report</a>
-                            </div>
+    <!-- Header-->
+    <header class="bg-dark py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center my-5">
+                        <h1 class="display-5 fw-bolder text-white mb-2">INNOVANDO PARA CREAR CIUDADES INCLUSIVAS</h1>
+                        <p class="lead text-white-50 mb-4">
+                            A partir de los flujos de datos, incluidos la teledetección espacial y los datos de
+                            detección de sistemas aéreos no tripulados (UAS), permitir que las partes interesadas
+                            locales (planificadores urbanos, autoridades de la ciudad) desarrollen planes urbanos más
+                            sostenibles
+                        </p>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Services</a>
+                            <a class="btn btn-outline-light btn-lg px-4" href="#report">Make a report</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
-  
-
-        <!-- Imagen de presentacion-->
-        <center>
-            <div class="figure">
-                <img src="Heydar_Aliyev_Center.2e16d0ba.fill-591x300.jpg"
-                alt="Metodo de planificacion urbana para ciudades mas incluyentes"
-                width="1000"
-                height="500">
-            </div>                 
-        </center>
-
-
-<!-- About section-->
-
-<section class="bg-light py-5 border-bottom" id="About">
-    <div class="container px-5 my-5">
-        <div class="text-center mb-5">
-            <h2 class="fw-bolder">About this project</h2>
-            <p class="lead mb-0">What we trying to do?</p>
         </div>
-        <p>
-
-        </p>
+    </header>
 
 
-                <h2>Sobre este proyecto</h2>
-                <p class="lead">This is a great place to talk about your webpage. 
-                    This template is purposefully unstyled so you can use it as a 
-                    boilerplate or starting point for you own landing page designs! This template features:
-                </p>
-                <ul>
-                    <li>Clickable nav links that smooth scroll to page sections</li>
-                    <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-                    <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-                    <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-                </ul>
-            </div>
+    <!-- Imagen de presentacion-->
+    <center>
+        <div class="figure">
+            <img src="../images/Heydar_Aliyev_Center.2e16d0ba.fill-591x300.jpg"
+                alt="Metodo de planificacion urbana para ciudades mas incluyentes" width="1000" height="500">
         </div>
-    </div>
-</section>
+    </center>
 
 
+    <!-- About section-->
 
-
-        <!-- Features section-->
-
+    <section class="bg-light py-5 border-bottom" id="About">
         <div class="container px-5 my-5">
             <div class="text-center mb-5">
-                <h2 class="fw-bolder">Objetivos del proyecto</h2>
+                <h2 class="fw-bolder">About this project</h2>
                 <p class="lead mb-0">What we trying to do?</p>
             </div>
+            <p>
+
+            </p>
+
+
+            <h2>Sobre este proyecto</h2>
+            <p class="lead">This is a great place to talk about your webpage.
+                This template is purposefully unstyled so you can use it as a
+                boilerplate or starting point for you own landing page designs! This template features:
+            </p>
+            <ul>
+                <li>Clickable nav links that smooth scroll to page sections</li>
+                <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+                <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar
+                </li>
+                <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+            </ul>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Features section-->
+
+    <div class="container px-5 my-5">
+        <div class="text-center mb-5">
+            <h2 class="fw-bolder">Objetivos del proyecto</h2>
+            <p class="lead mb-0">What we trying to do?</p>
+        </div>
 
         <section class="py-5 border-bottom" id="goal">
             <div class="container px-5 my-5">
                 <div class="row gx-5">
 
                     <div class="col-lg-3 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                class="bi bi-collection"></i></div>
                         <h2 class="h4 fw-bolder">Sustentabilidad</h2>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                            sentence and probably just keep going until we run out of words.</p>
                         <a class="text-decoration-none" href="#!">
                             Call to action
                             <i class="bi bi-arrow-right"></i>
@@ -125,9 +139,11 @@
                     </div>
 
                     <div class="col-lg-3 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                class="bi bi-building"></i></div>
                         <h2 class="h4 fw-bolder">Sostenibilidad</h2>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                            sentence and probably just keep going until we run out of words.</p>
                         <a class="text-decoration-none" href="#!">
                             Call to action
                             <i class="bi bi-arrow-right"></i>
@@ -135,18 +151,22 @@
                     </div>
 
                     <div class="col-lg-3">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                class="bi bi-toggles2"></i></div>
                         <h2 class="h4 fw-bolder">Inclusion</h2>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                            sentence and probably just keep going until we run out of words.</p>
                         <a class="text-decoration-none" href="#!">
                             Call to action
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                     <div class="col-lg-3 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                class="bi bi-building"></i></div>
                         <h2 class="h4 fw-bolder">Resilencia</h2>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                            sentence and probably just keep going until we run out of words.</p>
                         <a class="text-decoration-none" href="#!">
                             Call to action
                             <i class="bi bi-arrow-right"></i>
@@ -154,286 +174,306 @@
                     </div>
                 </div>
             </div>
-            
-
-        
 
 
-        <!-- Pricing section-->
-        <section class="bg-light py-5 border-bottom" id="Service">
-            <div class="container px-5 my-5">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bolder">Servicios</h2>
-                    <p class="lead mb-0">Recomendaciones y proyección a futuro</p>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <!-- Pricing card free-->
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="card mb-5 mb-xl-0">
-                            <div class="card-body p-5">
-                                <div class="small text-uppercase fw-bold text-muted">Esenarios de </div>
-                                <div class="mb-3">
-                                    <span class="display-4 fw-bold">Tendencia</span>
-                                    <p></p>
-                                    <span class="text-muted"> IA, cognitive services, ML</span>
-                                </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        <strong>Acceso publico</strong>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Estadisticas
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        proyecciónes a corto y mediano plazo
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Accede desde cualquier lugar o dispositivo
-                                    </li>
-                                    <li class="mb-2 text-muted">
-                                        <i class="bi bi-x"></i>
-                                        Seleccion de multiples locaciones
-                                    </li>
-                                    <li class="mb-2 text-muted">
-                                        <i class="bi bi-x"></i>
-                                        Reportes de estados
-                                    </li>
-                                </ul>
-                                <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Más informacion</a></div>
-                            </div>
-                        </div>
+
+
+
+            <!-- Pricing section-->
+            <section class="bg-light py-5 border-bottom" id="Service">
+                <div class="container px-5 my-5">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bolder">Servicios</h2>
+                        <p class="lead mb-0">Recomendaciones y proyección a futuro</p>
                     </div>
-
-
-                    <!-- Pricing card pro-->
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="card mb-5 mb-xl-0">
-                            <div class="card-body p-5">
-                                <div class="small text-uppercase fw-bold">
-                                    <i class="bi bi-star-fill text-warning"></i>
-                                    Dónde colocar
-                                </div>
-                                <div class="mb-3">
-                                    <span class="display-4 fw-bold">Nuevos<br> equipamientos</span>
-                                    <span class="text-muted"><br>Analisis inteligente con IAs</span>
-                                </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        <strong>Facil acesso a usuarios</strong>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Identifica los mejores lugares para colocar sistemas de captación de agua
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Uso de tecnologias en la nube
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Analisis inteligentes con modelos de IA
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Accede desde cualquier lugar o dispositivo
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Reportes dedicados automaticos y descargables
-                                    </li>
-
-                                </ul>
-                                <div class="d-grid"><a class="btn btn-primary" href="#!">Más informacion</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Pricing card enterprise-->
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="card">
-                            <div class="card-body p-5">
-                                <div class="small text-uppercase fw-bold text-muted">Identificar facilmente con el</div>
-                                <div class="mb-3">
-                                    <span class="display-4 fw-bold">Mapa general</span>
-                                    <span class="text-muted"><br>Layers y guia de uso</span>
-                                </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        <strong>Usuarios especializados y generales</strong>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Personaliza tu consulta mediante las diferentes capas disponibles
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Qué areas tienen cobertura de agua
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Qué areas que NO tienen cobertura de agua
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Población beneficiada
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Población SIN servicio
-                                    </li>
-
-                                </ul>
-                                <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Más informacion</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Testimonials section-->
-        <section class="py-5 border-bottom">
-            <div class="container px-5 my-5 px-5">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bolder">Herramientas inteligentes</h2>
-                    <p class="lead mb-0">Tecnologias que utilizamos para en generar soluciones inteligentes</p>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
-                        <!-- Testimonial 1-->
-                        <div class="card mb-4">
-                            <div class="card-body p-4">
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
-                                    <div class="ms-4">
-                                        <p class="mb-1">Bases de datos</p>
-                                        <p class="mb-1">Bases de datos</p>
-                                        <div class="small text-muted">- DataBase Name, Domain</div>
+                    <div class="row gx-5 justify-content-center">
+                        <!-- Pricing card free-->
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="card mb-5 mb-xl-0">
+                                <div class="card-body p-5">
+                                    <div class="small text-uppercase fw-bold text-muted">Esenarios de </div>
+                                    <div class="mb-3">
+                                        <span class="display-4 fw-bold">Tendencia</span>
+                                        <p></p>
+                                        <span class="text-muted"> IA, cognitive services, ML</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            <strong>Acceso publico</strong>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Estadisticas
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            proyecciónes a corto y mediano plazo
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Accede desde cualquier lugar o dispositivo
+                                        </li>
+                                        <li class="mb-2 text-muted">
+                                            <i class="bi bi-x"></i>
+                                            Seleccion de multiples locaciones
+                                        </li>
+                                        <li class="mb-2 text-muted">
+                                            <i class="bi bi-x"></i>
+                                            Reportes de estados
+                                        </li>
+                                    </ul>
+                                    <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Más informacion</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Testimonial 2-->
-                        <div class="card">
-                            <div class="card-body p-4">
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
-                                    <div class="ms-4">
-                                        <p class="mb-1">Tecnologias ML Azure</p>
-                                        <p class="mb-1">Tecnologias Cognitive Service Azure</p>
-                                        <div class="small text-muted">- Tool Name, Domain</div>
+
+
+                        <!-- Pricing card pro-->
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="card mb-5 mb-xl-0">
+                                <div class="card-body p-5">
+                                    <div class="small text-uppercase fw-bold">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        Dónde colocar
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="display-4 fw-bold">Nuevos<br> equipamientos</span>
+                                        <span class="text-muted"><br>Analisis inteligente con IAs</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            <strong>Facil acesso a usuarios</strong>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Identifica los mejores lugares para colocar sistemas de captación de agua
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Uso de tecnologias en la nube
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Analisis inteligentes con modelos de IA
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Accede desde cualquier lugar o dispositivo
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Reportes dedicados automaticos y descargables
+                                        </li>
+
+                                    </ul>
+                                    <div class="d-grid"><a class="btn btn-primary" href="#!">Más informacion</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Pricing card enterprise-->
+                        <div class="col-lg-6 col-xl-4">
+                            <div class="card">
+                                <div class="card-body p-5">
+                                    <div class="small text-uppercase fw-bold text-muted">Identificar facilmente con el
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="display-4 fw-bold">Mapa general</span>
+                                        <span class="text-muted"><br>Layers y guia de uso</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            <strong>Usuarios especializados y generales</strong>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Personaliza tu consulta mediante las diferentes capas disponibles
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Qué areas tienen cobertura de agua
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Qué areas que NO tienen cobertura de agua
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Población beneficiada
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-check text-primary"></i>
+                                            Población SIN servicio
+                                        </li>
+
+                                    </ul>
+                                    <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Más informacion</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Contact section-->
-        <section class="bg-light py-5", id='report'>
-            <div class="container px-5 my-5 px-5">
-                <div class="text-center mb-5">
-                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                    <h2 class="fw-bolder">Do you have water problems?</h2>
-                    <p class="lead mb-0">Tell us and make a report with your problem<br> Tell us about your experience </p>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Dinos tu nombre..." data-sb-validations="required" />
-                                <label for="name">Name 🤓</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">We need know your name. 👉👈</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Correo Electronico 🖥️</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Necesitamos una dirrección de email porfavor. 👉👈</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">El correo electronico no es valido 😩</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Numero telefónico 📞📱</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">Necesitamos conocer tu numero de telefono porfavor. 👉👈</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Cuentanos el problema ✍️</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Necesitamos que describas la situación porfavor. 👉👈</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+
+            <!-- Testimonials section-->
+            <section class="py-5 border-bottom">
+                <div class="container px-5 my-5 px-5">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bolder">Herramientas inteligentes</h2>
+                        <p class="lead mb-0">Tecnologias que utilizamos para en generar soluciones inteligentes</p>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-6">
+                            <!-- Testimonial 1-->
+                            <div class="card mb-4">
+                                <div class="card-body p-4">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0"><i
+                                                class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                        <div class="ms-4">
+                                            <p class="mb-1">Bases de datos</p>
+                                            <p class="mb-1">Bases de datos</p>
+                                            <div class="small text-muted">- DataBase Name, Domain</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button></div>
-                        </form>
+                            <!-- Testimonial 2-->
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0"><i
+                                                class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                        <div class="ms-4">
+                                            <p class="mb-1">Tecnologias ML Azure</p>
+                                            <p class="mb-1">Tecnologias Cognitive Service Azure</p>
+                                            <div class="small text-muted">- Tool Name, Domain</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    
+            </section>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+            <!-- Contact section-->
+            <section class="bg-light py-5" , id='report'>
+                <div class="container px-5 my-5 px-5">
+                    <div class="text-center mb-5">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i
+                                class="bi bi-envelope"></i></div>
+                        <h2 class="fw-bolder">Do you have water problems?</h2>
+                        <p class="lead mb-0">Tell us and make a report with your problem<br> Tell us about your
+                            experience </p>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-6">
+                            <!-- * * * * * * * * * * * * * * *-->
+                            <!-- * * SB Forms Contact Form * *-->
+                            <!-- * * * * * * * * * * * * * * *-->
+                            <!-- This form is pre-integrated with SB Forms.-->
+                            <!-- To make this form functional, sign up at-->
+                            <!-- https://startbootstrap.com/solution/contact-forms-->
+                            <!-- to get an API token!-->
+                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                                <!-- Name input-->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="name" type="text" placeholder="Dinos tu nombre..."
+                                        data-sb-validations="required" />
+                                    <label for="name">Name 🤓</label>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">We need know your
+                                        name. 👉👈</div>
+                                </div>
+                                <!-- Email address input-->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                        data-sb-validations="required,email" />
+                                    <label for="email">Correo Electronico 🖥️</label>
+                                    <div class="invalid-feedback" data-sb-feedback="email:required">Necesitamos una
+                                        dirrección de email porfavor. 👉👈</div>
+                                    <div class="invalid-feedback" data-sb-feedback="email:email">El correo electronico
+                                        no es valido 😩</div>
+                                </div>
+                                <!-- Phone number input-->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                                        data-sb-validations="required" />
+                                    <label for="phone">Numero telefónico 📞📱</label>
+                                    <div class="invalid-feedback" data-sb-feedback="phone:required">Necesitamos conocer
+                                        tu numero de telefono porfavor. 👉👈</div>
+                                </div>
+                                <!-- Message input-->
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="message" type="text"
+                                        placeholder="Enter your message here..." style="height: 10rem"
+                                        data-sb-validations="required"></textarea>
+                                    <label for="message">Cuentanos el problema ✍️</label>
+                                    <div class="invalid-feedback" data-sb-feedback="message:required">Necesitamos que
+                                        describas la situación porfavor. 👉👈</div>
+                                </div>
+                                <!-- Submit success message-->
+                                <!---->
+                                <!-- This is what your users will see when the form-->
+                                <!-- has successfully submitted-->
+                                <div class="d-none" id="submitSuccessMessage">
+                                    <div class="text-center mb-3">
+                                        <div class="fw-bolder">Form submission successful!</div>
+                                        To activate this form, sign up at
+                                        <br />
+                                        <a
+                                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                    </div>
+                                </div>
+                                <!-- Submit error message-->
+                                <!---->
+                                <!-- This is what your users will see when there is-->
+                                <!-- an error submitting the form-->
+                                <div class="d-none" id="submitErrorMessage">
+                                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                                </div>
+                                <!-- Submit Button-->
+                                <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton"
+                                        type="submit">Enviar</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer-->
+            <footer class="py-5 bg-dark">
+                <div class="container px-5">
+                    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p>
+                </div>
+            </footer>
+            <!-- Bootstrap core JS-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- Core theme JS-->
+            <script src="js/scripts.js"></script>
+            <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+            <!-- * *                               SB Forms JS                               * *-->
+            <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+            <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+            <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+            <!-- Optional JavaScript; choose one of the two! -->
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+                crossorigin="anonymous"></script>
+
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
-
-
-
-
-
-
