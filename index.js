@@ -1,9 +1,16 @@
-var path = require('path');
-var express = require('express');
-var app = express();
+const express = require("express");
+const app = express();
+const router = express.Router();
+const path = require('path');
+const port = process.env.PORT || 9000;
 
-var dir = path.join(__dirname, 'public');
+app.use(express.static(path.join(__dirname, 'public')));
+var publicPath = path.join(__dirname, 'public');
 
-app.use(express.static(dir));
+router.get("/", function (req, res) {
+    res.sendFile(path.join(__dirname, "/"));
+});
 
-app.listen(3000, () => console.log('Listening on http://localhost:3000/'));
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
+});
